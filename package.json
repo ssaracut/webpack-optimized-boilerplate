@@ -1,0 +1,45 @@
+{
+  "name": "webpack-optimized-boilerplate",
+  "version": "0.0.1",
+  "description": "Webpack boilerplate project for any type of project (React + Redux | MobX, Angular, Ember, etc)",
+  "scripts": {
+    "build": "webpack",
+    "test": "lab",
+    "stats": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "dbyeah@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "clean-webpack-plugin": "^0.1.13",
+    "css-loader": "^0.25.0",
+    "dotenv": "^2.0.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "html-webpack-template": "^5.4.1",
+    "image-webpack-loader": "^3.0.0",
+    "npm-install-webpack-plugin": "^4.0.4",
+    "purifycss-webpack-plugin": "^2.0.3",
+    "stats-webpack-plugin": "^0.4.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.15.0",
+    "webpack-validator": "^2.2.9"
+  },
+  "dependencies": {
+    "purecss": "^0.6.0"
+  }
+}
